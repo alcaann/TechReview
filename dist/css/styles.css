@@ -56,7 +56,7 @@ html {
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
-}
+} 
 
 body {
   margin: 0;
@@ -6075,6 +6075,13 @@ a.close.disabled {
 .bg-primary {
   background-color: #1abc9c !important;
 }
+os
+.bg-cuarter {
+  background-color: #000000 !important;
+}
+.bg-tercer {
+  background-color: #b2bb33 !important;
+}
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -6083,7 +6090,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #2c3e50 !important;
+  background-color: #000000 !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -10231,10 +10238,10 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
+  background-color: #000000;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #000000;
 }

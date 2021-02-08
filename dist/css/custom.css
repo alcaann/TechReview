@@ -1,0 +1,10 @@
+@font-face {
+    font-family: eras;
+    src: url('../assets/fonts/ERASBD.TTF') format('embedded-opentype'), /* Internet Explorer */
+         url('../assets/fonts/ERASBD.TTF') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/ERASBD.TTF') format('woff'), /* Pretty Modern Browsers */
+         url('../assets/fonts/ERASBD.TTF') format('truetype'), /* Safari, Android, iOS */
+         url('../assets/fonts/ERASBD.TTF') format('svg'); /* Legacy iOS */
+
+}
+ body#page-top>nav#mainNav>div>a{ font-family: eras;} 
