@@ -25,3 +25,14 @@
      font-size: 16px;
      color: black;
  }
+
+ #bloque1Review{
+     border: 4px solid black;
+     background-color: rgba(0, 0, 0, 0.582);
+ }
+
+ @font-face {
+    font-family: "Princi";
+    src: url("/dist/assets/fonts/Archivo-Regular.ttf");
+  }
+  
