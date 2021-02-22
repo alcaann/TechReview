@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8" />
@@ -17,7 +17,7 @@
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/custom.css" rel="stylesheet"/>
     </head>
-    <body id="page-top">
+    <body id="page-top ">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
@@ -44,9 +44,9 @@
         <header class="masthead bg-primary text-white text-center" id="inicio">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/logoPrincipal.png" alt=""  width="1000" />
+                <img class="masthead-avatar mb-5" src="assets/img/logoMiniatura.png" alt=""  width="1000" />
                 <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">&#60;título del apartado&#62;</h1>
+                <h1 class="masthead-heading text-uppercase mb-0">FORO</h1>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -81,25 +81,32 @@
             </div>
         </section>
 
-        <section class="page-section bg-cuarter text-white mb-0" id="formu">
+        <section class="page-section bg-cuarter text-white mb-0  w-100 d-flex justify-content-center border border-warning" id="formu">
 
-            <form>
-                <div class="form-group">
-                  <label for="emailUser">Correo electrónico</label>
-                  <input type="email" class="form-control" id="emailUser" aria-describedby="emailHelp" placeholder="ejemplo@ejemplo.ejemplo">
-                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                  <label for="nickUser">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-                <div class="form-group form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Publicar</button>
-              </form>
+            <div class=" container w-md-100 w-75  border border-warning">
+                <form>
 
+                    <h3>Crea tu post&nbsp;&nbsp;<span class="badge badge-secondary">alcaann</span></h3>
+                    <div class="form-group">
+                        <label for="emailUser">Título</label>
+                        <input type="email" class="form-control" id="emailUser" aria-describedby="emailHelp" placeholder="escribe tu título aquí">
+                        <small id="emailHelp" class="form-text text-muted">Este será el encabezado de tu post</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlFile1">Archivo multimedia</label>
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Texto (Opcional)</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="escribe tu texto aquí"></textarea>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Deseo recibir notificaciones de los comentarios de este post</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Publicar</button>
+                </form>
+            </div>
         </section>
         
 
