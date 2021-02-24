@@ -7,6 +7,15 @@
          url('../assets/fonts/ERASBD.TTF') format('svg'); /* Legacy iOS */
 
 }
+@font-face {
+  font-family: archivo;
+  src: url('../assets/fonts/Archivo-Regular.ttf') format('embedded-opentype'), /* Internet Explorer */
+       url('../assets/fonts/Archivo-Regular.TTF') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/Archivo-Regular.TTF') format('woff'), /* Pretty Modern Browsers */
+       url('../assets/fonts/Archivo-Regular.TTF') format('truetype'), /* Safari, Android, iOS */
+       url('../assets/fonts/Archivo-Regular.TTF') format('svg'); /* Legacy iOS */
+
+}
  body#page-top>nav#mainNav>div>a{ font-family: eras;} 
 
  #reviewTH td{
@@ -31,14 +40,8 @@
      background-color: rgba(0, 0, 0, 0.582);
  }
 
- @font-face {
-    font-family: "Princi";
-    src: url("/dist/assets/fonts/Archivo-Regular.ttf");
-  }
   
   #content_div_one_photo {
-    height: 16rem;
-    width: 11rem;
     border-radius: 10px;
     border: 5px solid black;
   }

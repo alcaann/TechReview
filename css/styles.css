@@ -2467,6 +2467,37 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
 }
 
+.btn-botonReview {
+  color: black;
+  background-color: white;
+  border-color: #326879;
+  margin-top: 20px;
+}
+.btn-botonReview:hover {
+  color: #fff;
+  background-color: #159a80;
+  border-color: #148f77;
+}
+.btn-botonReview:focus, .btn-botonReview.focus {
+  color: #fff;
+  background-color: #159a80;
+  border-color: #148f77;
+  box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
+}
+.btn-botonReview.disabled, .btn-botonReview:disabled {
+  color: #fff;
+  background-color: #ffffff;
+  border-color: #326879;
+}
+.btn-botonReview:not(:disabled):not(.disabled):active, .btn-botonReview:not(:disabled):not(.disabled).active, .show > .btn-botonReview.dropdown-toggle {
+  color: #fff;
+  background-color: #ffffff;
+  border-color: #12846e;
+}
+.btn-botonReview:not(:disabled):not(.disabled):active:focus, .btn-botonReview:not(:disabled):not(.disabled).active:focus, .show > .btn-botonReview.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgb(255, 255, 255);
+}
+
 .btn-secondary {
   color: #fff;
   background-color: #2c3e50;
@@ -4319,6 +4350,7 @@ input[type=button].btn-block {
   display: flex;
   flex-direction: column;
   min-width: 0;
+  height: 100%;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
@@ -4369,9 +4401,11 @@ input[type=button].btn-block {
 
 .card-link:hover {
   text-decoration: none;
+  
 }
 .card-link + .card-link {
   margin-left: 1.25rem;
+  
 }
 
 .card-header {
