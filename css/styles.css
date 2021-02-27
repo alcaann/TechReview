@@ -10277,6 +10277,17 @@ form .row:first-child .floating-label-form-group {
   color: #fff;
 }
 
+.footer2 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #000000;
+  color: #fff;
+}
+
 .copyright {
   background-color: #326879;
+}
+
+.copyright2 {
+  background-color: #000000;
 }
