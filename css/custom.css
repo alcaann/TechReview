@@ -57,3 +57,13 @@
     left: 1rem;
   }
 
+
+section#declaracion-licencias a, div a[rel="license"]{
+  color: #FF8F1C;
+  text-decoration: none;
+  background-color: transparent;
+}
+section#declaracion-licencias a:hover, div a:hover[rel="license"]{
+  color: white;
+  text-decoration: underline;
+  }
