@@ -2467,34 +2467,34 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
 }
 
-.btn-botonReview {
+.btn-botonreview {
   color: black;
   background-color: white;
   border-color: #326879;
   margin-top: 20px;
 }
-.btn-botonReview:hover {
+.btn-botonreview:hover {
   color: black;
   background-color: #FF8F1C;
   border-color: #FF8F1C;
 }
-.btn-botonReview:focus, .btn-botonReview.focus {
+.btn-botonreview:focus, .btn-botonreview.focus {
   color: black;
   background-color: #FF8F1C;
   border-color: #FF8F1C;
   box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
 }
-.btn-botonReview.disabled, .btn-botonReview:disabled {
+.btn-botonreview.disabled, .btn-botonreview:disabled {
   color: black;
   background-color: black;
   border-color: #FF8F1C;
 }
-.btn-botonReview:not(:disabled):not(.disabled):active, .btn-botonReview:not(:disabled):not(.disabled).active, .show > .btn-botonReview.dropdown-toggle {
+.btn-botonreview:not(:disabled):not(.disabled):active, .btn-botonreview:not(:disabled):not(.disabled).active, .show > .btn-botonreview.dropdown-toggle {
   color: black;
   background-color: black;
   border-color: #FF8F1C;
 }
-.btn-botonReview:not(:disabled):not(.disabled):active:focus, .btn-botonReview:not(:disabled):not(.disabled).active:focus, .show > .btn-botonReview.dropdown-toggle:focus {
+.btn-botonreview:not(:disabled):not(.disabled):active:focus, .btn-botonreview:not(:disabled):not(.disabled).active:focus, .show > .btn-botonreview.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgb(0, 0, 0);
 }
 
