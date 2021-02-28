@@ -67,3 +67,33 @@ section#declaracion-licencias a:hover, div a:hover[rel="license"]{
   color: white;
   text-decoration: underline;
   }
+
+
+  .btn-outline-envio {
+    color: #ffffff;
+    border-color: #ffffff;
+  }
+  .btn-outline-envio:hover {
+    color: #212529;
+    background-color: #FF8F1C;
+    border-color: #FF8F1C;
+  }
+  .btn-outline-envio:focus, .btn-outline-warning.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
+  }
+  .btn-outline-warning.disabled, .btn-outline-warning:disabled {
+    color: #FF8F1C;
+    background-color: transparent;
+  }
+  .btn-outline-warning:not(:disabled):not(.disabled):active, .btn-outline-envio:not(:disabled):not(.disabled).active, .show > .btn-outline-envio.dropdown-toggle {
+    color: #212529;
+    background-color: #FF8F1C;
+    border-color: #FF8F1C;
+  }
+  .btn-outline-envio:not(:disabled):not(.disabled):active:focus, .btn-outline-envio:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-envio.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
+  }
+
+  .checked {
+    color: #FF8F1C;
+  }

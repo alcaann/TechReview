@@ -2474,28 +2474,28 @@ fieldset:disabled a.btn {
   margin-top: 20px;
 }
 .btn-botonReview:hover {
-  color: #fff;
-  background-color: #159a80;
-  border-color: #148f77;
+  color: black;
+  background-color: #FF8F1C;
+  border-color: #FF8F1C;
 }
 .btn-botonReview:focus, .btn-botonReview.focus {
-  color: #fff;
-  background-color: #159a80;
-  border-color: #148f77;
+  color: black;
+  background-color: #FF8F1C;
+  border-color: #FF8F1C;
   box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
 }
 .btn-botonReview.disabled, .btn-botonReview:disabled {
-  color: #fff;
-  background-color: #ffffff;
-  border-color: #326879;
+  color: black;
+  background-color: black;
+  border-color: #FF8F1C;
 }
 .btn-botonReview:not(:disabled):not(.disabled):active, .btn-botonReview:not(:disabled):not(.disabled).active, .show > .btn-botonReview.dropdown-toggle {
-  color: #fff;
-  background-color: #ffffff;
-  border-color: #12846e;
+  color: black;
+  background-color: black;
+  border-color: #FF8F1C;
 }
 .btn-botonReview:not(:disabled):not(.disabled):active:focus, .btn-botonReview:not(:disabled):not(.disabled).active:focus, .show > .btn-botonReview.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgb(255, 255, 255);
+  box-shadow: 0 0 0 0.2rem rgb(0, 0, 0);
 }
 
 .btn-secondary {
