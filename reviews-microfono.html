@@ -212,9 +212,16 @@
                                                 <h4>Deja un comentario</h4> <label for="message">Mensaje</label> <textarea name="msg" id="" msg cols="30" rows="5" class="form-control"></textarea>
                                             </div>
                                             <div class="form-group"> <label for="name">Nombre</label> <input type="text" name="name" id="fullname" class="form-control"> </div>
-                                            <div class="form-group"> <label for="email">Email</label> <input type="text" name="email" id="email" class="form-control"> </div>
-                                            <div class="form-inline"> <input type="checkbox" name="check" id="checkbx" class="mr-1"> <label for="subscribe">Suscribirme a las noticias.</label> </div>
-                                            <br>
+                                            
+                                            <select class="star-rating" style="margin-bottom: 15px;">
+                                                <option value="">Selecciona una valoración</option>
+                                                <option value="5">5 Estrellas</option>
+                                                <option value="4">4 Estrellas</option>
+                                                <option value="3">3 Estrellas</option>
+                                                <option value="2">2 Estrellas</option>
+                                                <option value="1">1 Estrellas</option>
+                                            </select>
+                                            
 
                                             <div class="form-group"> <button type="button" class="btn btn-outline-envio">Enviar</button> </div>
                                         </form>
